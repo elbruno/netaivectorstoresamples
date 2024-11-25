@@ -5,10 +5,13 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <UserSecretsId>1f131cf8-6d32-40c0-9c80-dd3eb7686ce0</UserSecretsId>
   </PropertyGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Azure.Identity" Version="1.13.1" />
 		<PackageReference Include="Microsoft.Extensions.AI.Ollama" Version="9.0.1-preview.1.24570.5" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
 		<PackageReference Include="Microsoft.Extensions.VectorData.Abstractions" Version="9.0.0-preview.1.24523.1" />
 		<PackageReference Include="Microsoft.SemanticKernel.Connectors.AzureAISearch" Version="1.30.0-preview" />
 	</ItemGroup>
